@@ -2,7 +2,7 @@ waitUntil {!isNil"ExileClientLoadedIn"};
 [
     1,
     {
-        _fs = ["afalpercmstpsraswrfldnon","afalpercmstpsnonwnondnon","afalpercmstpsraswpstdnon","afalpknlmstpsraswrfldnon"];
+        _fs = ["afalpercmstpsraswrfldnon","afalpercmstpsnonwnondnon","afalpercmstpsraswpstdnon","afalpknlmstpsraswrfldnon","afalpknlmstpsnonwnondnon"];  
 		if ((animationState player) in _fs) then
 		{
 			_f = (getPos player select 2);
@@ -10,7 +10,7 @@ waitUntil {!isNil"ExileClientLoadedIn"};
 			
 			if (_f < 0.1 && !_W) then 
 			{
-				player switchMove "amovppnemstpsraswrfldnon";
+				player setvelocity [0,0,0];
 			};
 			
 		};
