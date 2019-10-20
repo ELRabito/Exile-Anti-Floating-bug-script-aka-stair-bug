@@ -6,9 +6,7 @@ waitUntil {!isNil"ExileClientLoadedIn"};
 		if ((animationState player) in _fs) then
 		{
 			_f = (getPos player select 2);
-			_W = surfaceIsWater position player;
-			
-			if (_f < 0.1 && !_W) then 
+			if (_f < 0.1) then 
 			{
 				player setvelocity [0,0,0];
 			};
