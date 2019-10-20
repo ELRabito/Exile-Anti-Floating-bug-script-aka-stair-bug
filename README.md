@@ -7,4 +7,4 @@ When floating while not falling your character is forced to lay down to avoid de
 
 ####>>>> Installation
 
-Add the code from the initplayerlocal.sqf to the end of your initplayerlocal.sqf of your mission-file.
+Add the code from the initplayerlocal.sqf file to the end of your initplayerlocal.sqf of your mission-file.
