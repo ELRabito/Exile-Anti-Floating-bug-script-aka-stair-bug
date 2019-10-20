@@ -1,10 +1,7 @@
 
+## Update
 
-
-Hacky solution to "fix" the annoying floating bug. Not the perfect and elegant solution but better than nothig. 
-
-Description: When floating while not falling your character is forced to lay down to avoid death in these situations. 
-(Because the games "thinks" you are falling from a deadly height). 
+I found a much better solution to the problem. Instead of forcing the character to lay down,i just remove the velocity and tada, even better than the old version. 
 
 ####>>>> Installation
 
