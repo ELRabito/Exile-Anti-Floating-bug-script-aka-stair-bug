@@ -10,9 +10,7 @@ waitUntil {!isNil"ExileClientLoadedIn"};
 			{
 				player setvelocity [0,0,0];
 			};
-			
 		};
-		
     },
     [],
     true,
