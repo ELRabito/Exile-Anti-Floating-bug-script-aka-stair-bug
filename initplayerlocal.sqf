@@ -1,4 +1,3 @@
-waitUntil {!isNil"ExileClientLoadedIn"};
 [
     1,
     {
