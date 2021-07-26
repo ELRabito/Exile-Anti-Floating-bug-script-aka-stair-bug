@@ -1,15 +1,14 @@
 [
     1,
     {
-        _fs = ["afalpercmstpsraswrfldnon","afalpercmstpsnonwnondnon","afalpercmstpsraswpstdnon","afalpknlmstpsraswrfldnon","afalpknlmstpsnonwnondnon"];  
-		if ((animationState player) in _fs) then
+        if((animationState player) in ["afalpercmstpsraswrfldnon","afalpercmstpsnonwnondnon","afalpercmstpsraswpstdnon","afalpknlmstpsraswrfldnon","afalpknlmstpsnonwnondnon"]) then
 		{
-			_f = (getPos player select 2) < 0.1;
-			_is = (getPosASLW player select 2) < 0;
-			if (_f && !_is) then 
+			if((getPos player select 2 < 0.1) && !(getPosASLW player select 2 < 0) )then 
 			{
 				player setvelocity [0,0,0];
+				systemChat "Anti-Floating triggered!"
 			};
+			
 		};
     },
     [],
