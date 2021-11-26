@@ -3,11 +3,9 @@
     {
 		if((animationState player) in ["afalpercmstpsraswrfldnon","afalpercmstpsnonwnondnon","afalpercmstpsraswpstdnon","afalpknlmstpsraswrfldnon","afalpknlmstpsnonwnondnon"]) then
 		{
-			if((getPos player select 2 < 0.1) && !(getPosASLW player select 2 < 0)) then 
-			{
-				player setvelocity [0,0,0];
-			};
+			if (getPos player select 2 < 0.1 && !(getPosASLW player select 2 < 0)) then {player setvelocity [0,0,0]};
 		};
+		
     },
     [],
     true,
