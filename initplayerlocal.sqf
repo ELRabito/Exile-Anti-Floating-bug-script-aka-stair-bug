@@ -1,3 +1,8 @@
+/**
+* Copyright © El Rabito - All Rights Reserved
+* Unauthorized usage of this file is strictly prohibited.
+*/
+
 [
     1,
     {
