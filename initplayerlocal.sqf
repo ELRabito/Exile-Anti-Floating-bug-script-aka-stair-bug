@@ -1,7 +1,4 @@
-/**
-* Exile-Anti-Floating by El Rabito
-*/
-
+// Exile-Anti-Floating (by El'Rabito) - Start
 [
     1,
     {
@@ -15,3 +12,4 @@
     true,
     true
 ] call ExileClient_system_thread_addtask;
+// Exile-Anti-Floating (by El'Rabito) - End
