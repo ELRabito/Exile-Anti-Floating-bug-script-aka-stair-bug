@@ -1,6 +1,5 @@
 /**
-* Copyright © El Rabito - All Rights Reserved
-* Unauthorized usage of this file is strictly prohibited.
+* Copyright © El Rabito
 */
 
 [
