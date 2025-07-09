@@ -4,7 +4,7 @@
 
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0DGiLA8gCZM/0.jpg)]([https://www.youtube.com/watch?v=0DGiLA8gCZM](https://youtu.be/0DGiLA8gCZM))
+[![Video Demonstration](https://img.youtube.com/vi/0DGiLA8gCZM/0.jpg)]([https://www.youtube.com/watch?v=0DGiLA8gCZM](https://youtu.be/0DGiLA8gCZM))
 
 # Installation
 - Add the code from the initplayerlocal.sqf file to the end of your initplayerlocal.sqf of your mission-file.
